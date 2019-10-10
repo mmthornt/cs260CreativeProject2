@@ -1,32 +1,29 @@
-
-#title {
-    font-family: fantasy;
-}
-/*body {*/
-/*  background-image: url("stars.jpg");*/
-/*}*/
-/*#git {*/
-/*    background-color: #000000;*/
-/*}*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
 
 body {
     background-color: #3C1C59;
     text-align: center;
-   /* background-image: url("crystalBall.png");*/
-
+    /* background-image: url("crystalBall.png");*/
 }
 
 p {
     color: white;
+    font-family: 'Merienda';
 }
 
+#getFortune {
+    font-family: 'Merienda';
+    font-size: 1.3em;
+    color: #C71585;
+}
 button {
     background-color: gold;
     border-color: gold;
-    width:30%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 20px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .container {
@@ -35,22 +32,85 @@ button {
     color: purple;
 }
 
-.centered {
+#centered {
     position: absolute;
     top: 50%;
-    left: 40%;
-    transform: translate(-40%, -40%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*.class or #id for formatting*/
 
 #fortune {
     color: white;
+    font-family: 'Merienda';
 }
 
 .center {
     display: block;
-    margin-left: 25%;
-    margin-right: 75%;
+    margin-left: 27%;
+    margin-right: auto;
     width: 50%;
+}
+
+
+
+/*title*/
+
+#title {
+    font-family: 'Sancreek', cursive;
+    color: gold;
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-shadow: #C71585 3px 2px 0;
+    position: relative;
+    margin: 15px;
+}
+
+#title:after {
+    content: "Fortune Teller";
+    position: absolute;
+    left: 27%;
+    top: 10px;
+}
+
+#title:after {
+    /*background: url(https://subtlepatterns.com/patterns/crossed_stripes.png) repeat;*/
+    background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -5;
+    display: block;
+    text-shadow: none;
+}
+
+
+
+.footer {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.footer a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:visited {
+    text-decoration: none;
+    color: white;
 }
