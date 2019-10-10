@@ -1,26 +1,44 @@
-body{
+body {
     background-color: purple;
     text-align: center;
-    
-}
-p{
-    color: white;
-}
-button
-{
-    background-color: gold;
-    border-color: gold;
-}
-/*.class or #id for formatting*/
-#fortune
-{
-    color:white;
+
 }
 
-.center
-{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
+p {
+    color: white;
+}
+
+button {
+    background-color: gold;
+    border-color: gold;
+    width:30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: purple;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*.class or #id for formatting*/
+
+#fortune {
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
