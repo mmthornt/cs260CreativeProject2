@@ -1,3 +1,4 @@
+
 #title {
     font-family: fantasy;
 }
@@ -7,3 +8,49 @@
 /*#git {*/
 /*    background-color: #000000;*/
 /*}*/
+
+body {
+    background-color: #3C1C59;
+    text-align: center;
+   /* background-image: url("crystalBall.png");*/
+
+}
+
+p {
+    color: white;
+}
+
+button {
+    background-color: gold;
+    border-color: gold;
+    width:30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: purple;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+}
+
+/*.class or #id for formatting*/
+
+#fortune {
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: 25%;
+    margin-right: 75%;
+    width: 50%;
+}

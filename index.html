@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title>fortune teller</title>
+<link rel="stylesheet" href="styles.css">
 
 <head>
     <title>Fortune Fun</title>
@@ -9,9 +10,20 @@
 </head>
 
 <body>
+
     <p id="title">Fortune Teller</p>
+
+    <!--make a fancy banner here for the fortune teller title?-->
+    <p>Fortune Teller</p>
+    <div class="container">
+        <img src="crystalBall.png" class="center">
+        <div class="centered">
+            <div id="fortune"></div>
+        </div>
+    </div>
+
     <button id="getFortune">Get Fortune</button>
-    <div id="fortune"></div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
     <script src="./script.js"></script>
